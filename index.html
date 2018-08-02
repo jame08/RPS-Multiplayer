@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>CoderBay</title>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="col-md-12">
+
+        <!-- Jumbotron Title -->
+        <div class="jumbotron">
+            <h1 class="text-center">Welcome to CodersBay</h1>
+            <h3 class="text-center">"Where bidders win big."</h3>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 float-left  ml-3 player"></div>
+            <div class="col-md-4"></div>
+            
+            <div class="col-md-4 float-right mr-3 player"></div>
+
+        </div>
+
+        <div class="row">
+        
+                <form>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <div id='messagesDiv' class="msg-wrapper"></div>
+                            <hr />
+                           </div>
+                        </div>
+                        
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <label>Name
+                              <input type="text" id='nameInput' placeholder='Name' />
+                            </label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <label>Message
+                              <textarea id='messageInput' placeholder='Message'></textarea>
+                            </label>
+                          </div>
+                        </div>
+                      
+                      </form>
+
+
+        </div>
+     
+
+
+
+    </div>
+
+</div>
+
+    <!-- Script -->
+    <script src="assets/javascript/rps.js"></script>
+
+
+</body>
+
+</html>
